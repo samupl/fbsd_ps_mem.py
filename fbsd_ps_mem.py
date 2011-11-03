@@ -29,7 +29,6 @@
 #  FreeBSD process memory usage monitoring tool.
 
 import os
-import struct
     
 if os.getuid() != 0:
     print "Sorry, root permission required."
