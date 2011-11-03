@@ -1,0 +1,8 @@
+This is my implementation of ps_mem.py for FreeBSD operating system.
+
+Personaly I don't agree that users should rely on linprocfs as a source for such kind of information (like memory usage). Right now this is just a basic memory usage tool, I will add new features soon.
+
+TODO:
+ * Get rid of psutil, get things done as they should be,
+ * Some sorting,
+ * Give info about one process, if told to do so,
